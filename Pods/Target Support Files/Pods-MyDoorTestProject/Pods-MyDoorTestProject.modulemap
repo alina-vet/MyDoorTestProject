@@ -1,0 +1,6 @@
+framework module Pods_MyDoorTestProject {
+  umbrella header "Pods-MyDoorTestProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

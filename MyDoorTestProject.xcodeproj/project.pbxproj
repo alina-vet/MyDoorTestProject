@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7023A97287EBBEA009ACBEB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7023A96287EBBEA009ACBEB /* Constants.swift */; };
 		C7DC23B82875D06A00026302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DC23B72875D06A00026302 /* AppDelegate.swift */; };
 		C7DC23BA2875D06A00026302 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DC23B92875D06A00026302 /* SceneDelegate.swift */; };
-		C7DC23BC2875D06A00026302 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DC23BB2875D06A00026302 /* ViewController.swift */; };
+		C7DC23BC2875D06A00026302 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DC23BB2875D06A00026302 /* MainViewController.swift */; };
 		C7DC23BF2875D06A00026302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DC23BD2875D06A00026302 /* Main.storyboard */; };
 		C7DC23C12875D06C00026302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DC23C02875D06C00026302 /* Assets.xcassets */; };
 		C7DC23C42875D06C00026302 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DC23C22875D06C00026302 /* LaunchScreen.storyboard */; };
+		C7DC23D02876D18700026302 /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DC23CF2876D18700026302 /* Door.swift */; };
+		C7DC23D22876E16900026302 /* TableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DC23D12876E16900026302 /* TableHeader.swift */; };
+		C7DC23D42876F2FC00026302 /* DoorTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DC23D32876F2FC00026302 /* DoorTableCell.swift */; };
+		C7DC23D828786F8C00026302 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DC23D728786F8C00026302 /* APICaller.swift */; };
+		C7DC23DD2878782A00026302 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7DC23DC2878782A00026302 /* SplashViewController.swift */; };
+		C7FC602F287C268100B690C1 /* LeftLoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FC602E287C268100B690C1 /* LeftLoadingImageView.swift */; };
+		C7FC6034287C601F00B690C1 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FC6033287C601F00B690C1 /* CircularProgressView.swift */; };
+		C7FC6037287C793000B690C1 /* DoorCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FC6036287C793000B690C1 /* DoorCellDelegate.swift */; };
+		C7FC603B287D715400B690C1 /* RightLoadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FC603A287D715400B690C1 /* RightLoadingImageView.swift */; };
+		C7FC6041287DBE6900B690C1 /* WelcomeStackVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FC6040287DBE6900B690C1 /* WelcomeStackVew.swift */; };
+		C7FC6047287DEEAA00B690C1 /* Sk-Modernist-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C7FC6045287DEEAA00B690C1 /* Sk-Modernist-Bold.otf */; };
+		C7FC6048287DEEAA00B690C1 /* Sk-Modernist-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C7FC6046287DEEAA00B690C1 /* Sk-Modernist-Regular.otf */; };
+		E8A59C892FEF85B1005E1DCF /* Pods_MyDoorTestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A774687992EE2FBA1E9C11A /* Pods_MyDoorTestProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A774687992EE2FBA1E9C11A /* Pods_MyDoorTestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDoorTestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		491B9894177066A31A18D558 /* Pods-MyDoorTestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDoorTestProject.release.xcconfig"; path = "Target Support Files/Pods-MyDoorTestProject/Pods-MyDoorTestProject.release.xcconfig"; sourceTree = "<group>"; };
+		C7023A96287EBBEA009ACBEB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C7DC23B42875D06A00026302 /* MyDoorTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDoorTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DC23B72875D06A00026302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7DC23B92875D06A00026302 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C7DC23BB2875D06A00026302 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7DC23BB2875D06A00026302 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C7DC23BE2875D06A00026302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7DC23C02875D06C00026302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7DC23C32875D06C00026302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7DC23C52875D06C00026302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DC23CF2876D18700026302 /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
+		C7DC23D12876E16900026302 /* TableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeader.swift; sourceTree = "<group>"; };
+		C7DC23D32876F2FC00026302 /* DoorTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorTableCell.swift; sourceTree = "<group>"; };
+		C7DC23D728786F8C00026302 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		C7DC23DC2878782A00026302 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		C7FC602E287C268100B690C1 /* LeftLoadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftLoadingImageView.swift; sourceTree = "<group>"; };
+		C7FC6033287C601F00B690C1 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		C7FC6036287C793000B690C1 /* DoorCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorCellDelegate.swift; sourceTree = "<group>"; };
+		C7FC603A287D715400B690C1 /* RightLoadingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightLoadingImageView.swift; sourceTree = "<group>"; };
+		C7FC6040287DBE6900B690C1 /* WelcomeStackVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeStackVew.swift; sourceTree = "<group>"; };
+		C7FC6045287DEEAA00B690C1 /* Sk-Modernist-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sk-Modernist-Bold.otf"; sourceTree = "<group>"; };
+		C7FC6046287DEEAA00B690C1 /* Sk-Modernist-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sk-Modernist-Regular.otf"; sourceTree = "<group>"; };
+		F54175AFD027D0788CEC0C92 /* Pods-MyDoorTestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDoorTestProject.debug.xcconfig"; path = "Target Support Files/Pods-MyDoorTestProject/Pods-MyDoorTestProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A59C892FEF85B1005E1DCF /* Pods_MyDoorTestProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78A176C08E5506CB62991153 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F54175AFD027D0788CEC0C92 /* Pods-MyDoorTestProject.debug.xcconfig */,
+				491B9894177066A31A18D558 /* Pods-MyDoorTestProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C7DC23AB2875D06A00026302 = {
 			isa = PBXGroup;
 			children = (
 				C7DC23B62875D06A00026302 /* MyDoorTestProject */,
 				C7DC23B52875D06A00026302 /* Products */,
+				78A176C08E5506CB62991153 /* Pods */,
+				E69F7363ECD61FF79B295B6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,108 @@
 		C7DC23B62875D06A00026302 /* MyDoorTestProject */ = {
 			isa = PBXGroup;
 			children = (
-				C7DC23B72875D06A00026302 /* AppDelegate.swift */,
-				C7DC23B92875D06A00026302 /* SceneDelegate.swift */,
-				C7DC23BB2875D06A00026302 /* ViewController.swift */,
-				C7DC23BD2875D06A00026302 /* Main.storyboard */,
-				C7DC23C02875D06C00026302 /* Assets.xcassets */,
-				C7DC23C22875D06C00026302 /* LaunchScreen.storyboard */,
+				C7DC23D92878743300026302 /* Application */,
+				C7DC23DB2878780A00026302 /* Controller */,
+				C7DC23E228788C9600026302 /* Model */,
+				C7DC23E328788CA100026302 /* TableViewCell */,
+				C7FC6030287C321B00B690C1 /* View */,
+				C7FC6035287C791700B690C1 /* Helper */,
+				C7DC23DA2878744F00026302 /* Storyboards */,
+				C7FC6042287DEE5300B690C1 /* SupportFiles */,
 				C7DC23C52875D06C00026302 /* Info.plist */,
 			);
 			path = MyDoorTestProject;
+			sourceTree = "<group>";
+		};
+		C7DC23D92878743300026302 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C7DC23B72875D06A00026302 /* AppDelegate.swift */,
+				C7DC23B92875D06A00026302 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C7DC23DA2878744F00026302 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C7DC23BD2875D06A00026302 /* Main.storyboard */,
+				C7DC23C22875D06C00026302 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C7DC23DB2878780A00026302 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7DC23BB2875D06A00026302 /* MainViewController.swift */,
+				C7DC23DC2878782A00026302 /* SplashViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C7DC23E228788C9600026302 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7DC23CF2876D18700026302 /* Door.swift */,
+				C7DC23D728786F8C00026302 /* APICaller.swift */,
+				C7023A96287EBBEA009ACBEB /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7DC23E328788CA100026302 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C7DC23D12876E16900026302 /* TableHeader.swift */,
+				C7DC23D32876F2FC00026302 /* DoorTableCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		C7FC6030287C321B00B690C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7FC602E287C268100B690C1 /* LeftLoadingImageView.swift */,
+				C7FC603A287D715400B690C1 /* RightLoadingImageView.swift */,
+				C7FC6040287DBE6900B690C1 /* WelcomeStackVew.swift */,
+				C7FC6033287C601F00B690C1 /* CircularProgressView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7FC6035287C791700B690C1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C7FC6036287C793000B690C1 /* DoorCellDelegate.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C7FC6042287DEE5300B690C1 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C7FC6044287DEE8000B690C1 /* Fonts */,
+				C7DC23C02875D06C00026302 /* Assets.xcassets */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		C7FC6044287DEE8000B690C1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C7FC6045287DEEAA00B690C1 /* Sk-Modernist-Bold.otf */,
+				C7FC6046287DEEAA00B690C1 /* Sk-Modernist-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E69F7363ECD61FF79B295B6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A774687992EE2FBA1E9C11A /* Pods_MyDoorTestProject.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7DC23C82875D06C00026302 /* Build configuration list for PBXNativeTarget "MyDoorTestProject" */;
 			buildPhases = (
+				7ED215F428B02B957D79B71F /* [CP] Check Pods Manifest.lock */,
 				C7DC23B02875D06A00026302 /* Sources */,
 				C7DC23B12875D06A00026302 /* Frameworks */,
 				C7DC23B22875D06A00026302 /* Resources */,
+				A8993E411E73A3BCF547C055 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +262,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7FC6048287DEEAA00B690C1 /* Sk-Modernist-Regular.otf in Resources */,
 				C7DC23C42875D06C00026302 /* LaunchScreen.storyboard in Resources */,
 				C7DC23C12875D06C00026302 /* Assets.xcassets in Resources */,
+				C7FC6047287DEEAA00B690C1 /* Sk-Modernist-Bold.otf in Resources */,
 				C7DC23BF2875D06A00026302 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7ED215F428B02B957D79B71F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyDoorTestProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8993E411E73A3BCF547C055 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDoorTestProject/Pods-MyDoorTestProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDoorTestProject/Pods-MyDoorTestProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyDoorTestProject/Pods-MyDoorTestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C7DC23B02875D06A00026302 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7DC23BC2875D06A00026302 /* ViewController.swift in Sources */,
+				C7FC602F287C268100B690C1 /* LeftLoadingImageView.swift in Sources */,
+				C7DC23BC2875D06A00026302 /* MainViewController.swift in Sources */,
 				C7DC23B82875D06A00026302 /* AppDelegate.swift in Sources */,
+				C7DC23D42876F2FC00026302 /* DoorTableCell.swift in Sources */,
+				C7DC23DD2878782A00026302 /* SplashViewController.swift in Sources */,
+				C7FC603B287D715400B690C1 /* RightLoadingImageView.swift in Sources */,
+				C7DC23D828786F8C00026302 /* APICaller.swift in Sources */,
+				C7DC23D02876D18700026302 /* Door.swift in Sources */,
 				C7DC23BA2875D06A00026302 /* SceneDelegate.swift in Sources */,
+				C7FC6041287DBE6900B690C1 /* WelcomeStackVew.swift in Sources */,
+				C7DC23D22876E16900026302 /* TableHeader.swift in Sources */,
+				C7023A97287EBBEA009ACBEB /* Constants.swift in Sources */,
+				C7FC6034287C601F00B690C1 /* CircularProgressView.swift in Sources */,
+				C7FC6037287C793000B690C1 /* DoorCellDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +474,7 @@
 		};
 		C7DC23C92875D06C00026302 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54175AFD027D0788CEC0C92 /* Pods-MyDoorTestProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +503,7 @@
 		};
 		C7DC23CA2875D06C00026302 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491B9894177066A31A18D558 /* Pods-MyDoorTestProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
